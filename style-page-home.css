@@ -1,0 +1,349 @@
+@font-face {
+	font-family: 'Quicksand';
+    src: url('../font/Quicksand.ttf');
+}
+@font-face {
+	font-family: 'Dopestyle';
+    src: url('../font/Dopestyle.ttf');
+}
+@font-face {
+	font-family: 'Viga';
+    src: url('../font/Viga-Regular.ttf');
+}
+
+.s-proyek{
+    width: 100%;
+    display: inline-block;
+    overflow: auto;
+    background-color: #95dbe5;
+}
+.container-proyek{
+    padding-bottom: 20px;
+    background-color: white;
+    background: #95dbe5;
+
+}
+.content-proyek{
+    width: 85%;
+    margin: auto;
+}
+.proyek-title{
+    text-align: center;
+    margin: 20px;
+}
+.proyek-title span{
+    font-size: 20pt;
+    font-weight: bold;
+    border-bottom: 3px solid #078282;
+}
+.proyek-desc{
+    margin: 0 20px 20px 20px;
+}
+.card-proyek{
+    margin: 15px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background: white;
+}
+.card-proyek:hover{
+    transition: .5s;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+.card-image{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-image img{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-content{
+    font-family: 'Quicksand';
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'Quicksand';
+}
+.card-content-left {
+    background-color: #95dbe5;
+    margin: 5px;
+    height: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    padding: 3px;
+    border-radius: 10px;
+    font-size: 10pt;
+}
+.card-content-right {
+    font-weight: bold;
+    height: 20px;
+    margin: 5px;
+    text-align: right;
+    padding: 3px;
+    font-size: 10pt;
+}
+.left-child-title p{
+    margin: 5px 5px 0 5px;
+    font-size: 9pt;
+    text-align: left;
+}
+.right-child-title p{
+    margin: 5px 5px 0 5px;
+    font-size: 9pt;
+    text-align: right;
+}
+.left-child-desc p{
+    margin: 0 5px 0 5px;
+    text-align: left;
+    font-family: 'Viga';
+    font-size: 11pt;
+    color: #075e5e;
+}
+.right-child-desc p{
+    margin: 0 5px 0 5px;
+    text-align: right;
+    font-family: 'Viga';
+    font-size: 11pt;
+    color: #075e5e;
+}
+.right-child-desc span{
+    background-color: #078282;
+    color: white;
+    border-radius: 5px;
+    padding: 2px 10px 2px 10px;
+}
+.card-footer-left{
+    margin: 3px;
+    color: darkgray;
+    font-size: 10pt;
+    text-align: left;
+}
+.card-footer-left span{font-size: 8pt;}
+.card-footer-right{
+    margin: 3px;
+    text-align: right;
+    padding: 6px;
+}
+.card-footer-right span{
+    background-color: #95dbe5;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    font-size: 10pt;
+    font-family: 'Viga';
+}
+.btn-card-bottom{
+    font-style: italic;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #078282;
+    margin: 0;
+    text-align: center;
+    color: white;
+    padding: 8px 0 8px 0;
+    transition: .5s;
+    font-size: 11pt;
+}
+.btn-card-bottom:hover{
+    background-color: #075e5e;
+    transition: .5s;
+}
+.btn-card-bottom-done{
+    font-style: italic;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    background-color: #95dbe5;
+    margin: 0;
+    cursor: not-allowed;
+    text-align: center;
+    color: darkgray;
+    padding: 8px 0 8px 0;
+    transition: .5s;
+    font-size: 11pt;
+}
+.proyek-see-more p a{text-decoration: none; color: #078282; transition: .5s;}
+.proyek-see-more p {
+    text-align: center;
+    margin: 20px;
+    cursor: pointer;
+}
+.proyek-see-more p a:hover{color: #075e5e; border-bottom: 1px solid #075e5e; transition: .5s;}
+
+.s-reason{
+    background-color: #95dbe5;
+    height: auto;
+    padding-bottom: 100px;
+}
+.container-reason{padding-top: 25px;}
+.content-reason{
+    font-family: 'Quicksand';
+    width: 85%;
+    margin: auto;
+}
+.reason-title{
+    margin: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20pt;
+}
+.reason-icon{
+    text-align: center;
+}
+.reason-icon-img img{
+    width: 90px;
+    height: 90px;
+    background-color: #078282;
+    border-radius: 50%;
+    margin: 5px auto;
+    padding: 30px;
+}
+.reason-icon-title{
+    margin: 5px;
+    font-size: 13pt;
+    font-weight: bold;
+}
+.reason-icon-desc{
+    margin: auto 5px;
+    font-size: 9pt;
+}
+
+.s-testimoni{
+    background-color: lightgray;
+    height: auto;
+    padding-bottom: 50px;
+}
+.content-testimoni{
+    font-family: 'Quicksand';
+    width: 70%;
+    margin: auto
+}
+.testimoni-title{
+    text-align: center;
+    margin: 15px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 20pt;
+}
+.testimoni-desc{
+    margin: 10px;
+    text-align: center;
+}
+.testimoni-desc-img{
+    width: 200px;
+    height: 200px;
+    margin: 5px auto;
+}
+.testimoni-desc-img img{width: 100%; height: 100%;}
+.testimoni-desc-name{
+    margin: 5px;
+    font-size: 15pt;
+    font-weight: bold;
+}
+.testimoni-desc-role{
+    margin: 5px;
+    font-size: 12pt;
+    font-weight: bold;
+    font-style: italic;
+}
+.testimoni-desc-motto{font-size: 10pt;}
+
+.s-motto-bottom{
+    background-image: url('../img/asset/female-hand-holding-money-table-nature-background_36577-60.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 250px;
+    font-family: 'Quicksand';
+    width: 100%;
+    padding: 0;
+}
+.container-motto-bottom{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.content-motto-bottom{
+    margin: auto;
+    width: 85%;
+    height: 100%;
+}
+.motto-bottom-left{text-align: center;}
+.motto-bottom-left button{
+    margin-top: 100px;
+    padding: 15px 80px;
+    background-color: #078282;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.motto-bottom-left button:hover{
+    background-color: #075e5e;
+    transition: .5s;
+}
+.motto-bottom-right{
+    color: white;
+    text-align: right;
+    padding: 50px;
+}
+.motto-bottom-right p{font-size: 20pt;}
+.motto-bottom-right h1{font-size: 30pt;}
+
+.s-footer{
+    background-color: #078282;
+    color: white;
+    font-family: 'Quicksand';
+}
+.content-footer{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+}
+.footer-title{
+    text-align: center;
+    margin: 30px;
+    margin-top: 50px;
+}
+.footer-title img{
+    margin-right: 5px;
+    width: 70px;
+    height: auto;
+    vertical-align: middle;
+}
+.footer-title span{
+    font-size: 15pt;
+    vertical-align: middle;
+    font-weight: bolder;
+}
+.content-title-footer{
+    font-size: 12pt;
+    font-weight: bold;
+}
+.content-desc-footer p{
+    font-size: 10pt;
+    margin: 10px 10px 10px 0;
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #075e5e;
+    font-size: 11pt;
+}
