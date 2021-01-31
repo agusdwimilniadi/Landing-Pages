@@ -393,7 +393,7 @@ section .title::after{
     background: var(--blue);
 }
 .teams .title::after{
-    content: "petani & investor";
+    content: ;
     color: black;
     background: var(--seablue);
 }
